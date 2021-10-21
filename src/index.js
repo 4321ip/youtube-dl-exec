@@ -16,7 +16,7 @@ const create = binaryPath => {
   return fn
 }
 
-module.exports = create(require('./constants').YOUTUBE_DL_PATH)
+module.exports = create(require('./constants_dlp').YOUTUBE_DL_PATH)
 module.exports.create = create
 module.exports.args = args
 module.exports.isJSON = isJSON

@@ -16,7 +16,7 @@ const {
   YOUTUBE_DL_DIR,
   YOUTUBE_DL_FILE,
   YOUTUBE_DL_SKIP_DOWNLOAD
-} = require('../src/constants')
+} = require('../src/constants_dlp')
 
 const getBinary = async url => {
   const response = await fetch(url)
